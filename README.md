@@ -1,12 +1,54 @@
-# React + Vite
+Pokédex App 🏆🎮
+A React-based Pokédex that allows users to explore Pokémon details, including stats, types, moves, and images. The app fetches data from the PokéAPI and utilizes local caching to improve performance and reduce API calls.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌟 Features
+🔍 Search & View Pokémon – Browse Pokémon details, including name, height, abilities, and stats.
 
-Currently, two official plugins are available:
+📊 Detailed Stats & Moves – Displays Pokémon base stats and move descriptions in a modal.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🏷️ Type-based Categorization – Easily view Pokémon by their elemental types.
 
-## Expanding the ESLint configuration
+⚡ Optimized Caching – Saves Pokémon data in localStorage for faster loading and reduced API calls.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Responsive UI – Fully mobile-friendly and optimized for different screen sizes.
+
+🚀 Dynamic Image Display – Showcases multiple Pokémon sprite variations.
+
+🛠️ Tech Stack
+⚛️ React – Component-based UI architecture
+
+🎨 CSS / Tailwind – Responsive design and styling
+
+🔥 PokéAPI – Fetches real-time Pokémon data
+
+💾 LocalStorage – Caching for better performance
+
+📥 Installation & Setup
+1️⃣ Clone the repository
+
+sh
+Copy
+Edit
+git clone https://github.com/your-username/pokedex-app.git
+cd pokedex-app
+2️⃣ Install dependencies
+
+sh
+Copy
+Edit
+npm install
+3️⃣ Run the application
+
+sh
+Copy
+Edit
+npm run dev
+📌 Upcoming Features
+🛠️ Search Functionality – Quickly find Pokémon by name or number.
+
+⭐ Favorite Pokémon – Save and track your favorite Pokémon.
+
+🎥 Smooth UI Animations – Enhance interactivity with better animations.
+
+🌍 Deployment – Host on Vercel or Netlify for public access.
+
