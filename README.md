@@ -22,8 +22,5 @@ A **React-based Pokédex** that allows users to explore Pokémon details, includ
 
 ---
 
-## 📥 Installation & Setup  
-1️⃣ **Clone the repository**  
-```sh
-git clone https://github.com/your-username/pokedex-app.git
-cd pokedex-app
+
+
